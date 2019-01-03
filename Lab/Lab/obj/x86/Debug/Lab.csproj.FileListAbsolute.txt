@@ -1,0 +1,6 @@
+/Users/Egor/c#/Lab/Lab/bin/Debug/Lab.exe
+/Users/Egor/c#/Lab/Lab/bin/Debug/Lab.pdb
+/Users/Egor/c#/Lab/Lab/obj/x86/Debug/Lab.csprojAssemblyReference.cache
+/Users/Egor/c#/Lab/Lab/obj/x86/Debug/Lab.csproj.CoreCompileInputs.cache
+/Users/Egor/c#/Lab/Lab/obj/x86/Debug/Lab.exe
+/Users/Egor/c#/Lab/Lab/obj/x86/Debug/Lab.pdb
