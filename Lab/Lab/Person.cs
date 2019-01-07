@@ -10,14 +10,13 @@ namespace Lab
     {
         public string name { get; set; }
         public string surname { get; set; }
-        protected string birthday;
+        protected DateTime birthday;
 
         public string Birthday
         {
             get
             {
-                string[] split = birthday.Split(new Char[] { '.' });
-                return split[2];
+                return birthday.Year;
             }
             set
             {
@@ -27,9 +26,9 @@ namespace Lab
                 }
                 else 
                 {
-                    string[] split = birthday.Split(new Char[] { '.' });
-                    split[2] = value;
-                    birthday = split[0] + '.' + split[1] + '.' + split[2];
+                    int day = birthday.Day;
+                    int month = birthday.Month;
+                    birthday = new DateTime(value, month, day);
                 }
 
             }
